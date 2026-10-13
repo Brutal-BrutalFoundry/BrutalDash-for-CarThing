@@ -1,0 +1,5 @@
+MPL-covered PawnIO transport and CPU-access module source from the existing BrutalDash for CarThing release.
+These files are retained for third-party license compliance.
+LibreHardwareMonitor 0.9.6 source commit: 3d331e3370efb858411f19511373eff65a218701
+Upstream: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+The application dashboard, telemetry orchestration, and other development source are not part of this downloads repository.

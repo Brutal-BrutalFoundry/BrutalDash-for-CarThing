@@ -1,0 +1,211 @@
+{
+  "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
+  "schema": "catalog.v1",
+  "updated_at": "2026-10-04T03:31:00.177Z",
+  "repo": {
+    "name": "BrutalFoundry",
+    "description": "Independent software and device experiences by Brutal.",
+    "homepage": "https://github.com/Brutal-BrutalFoundry",
+    "icon": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/assets/brutalfoundry-icon.jpg"
+  },
+  "apps": [
+    {
+      "id": "01a07455-935a-77ad-97a8-94f23a9f8522",
+      "name": "BrutalDash for CarThing",
+      "description": "A live PC performance command center for Car Thing with native telemetry, in-game FPS, customizable layouts, PC media controls, and a disconnected clock.",
+      "author": "BrutalFoundry",
+      "icon": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/assets/brutalfoundry-icon.jpg",
+      "screenshots": [
+        "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/screenshots/gaming-v0.1.60.png",
+        "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/screenshots/six-card-v0.1.60.png",
+        "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/screenshots/device-battery-v0.1.60.png",
+        "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/screenshots/llm-monitor-v0.1.60.png"
+      ],
+      "homepage": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/",
+      "versions": [
+        {
+          "version": "0.1.62",
+          "released_at": "2026-10-04T03:30:41Z",
+          "download": {
+            "url": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/downloads/BrutalDash-0.1.62.zip",
+            "size": 53571872,
+            "sha256": "3fff294d3829db1d25b83c3e7829f572847349b6d051b1e89adc272a3f9be2a0"
+          },
+          "permissions": [],
+          "extension": {
+            "desktop": true,
+            "permissions": [
+              "ffi",
+              "run",
+              "net:127.0.0.1",
+              "write"
+            ]
+          },
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Improved LLM Monitor readability and card sizing. Removed the normal-view bottom gap and fixed clipped or overlapping readings with the media panel open and on shorter screens."
+        },
+        {
+          "version": "0.1.61",
+          "released_at": "2026-10-03T08:16:39Z",
+          "download": {
+            "url": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/downloads/BrutalDash-0.1.61.zip",
+            "size": 53570919,
+            "sha256": "21aeb5f693f5072eb745d31dc21f86b6b3f625739136223d2e1bfe334c815155"
+          },
+          "permissions": [],
+          "extension": {
+            "desktop": true,
+            "permissions": [
+              "ffi",
+              "run",
+              "net:127.0.0.1",
+              "write"
+            ]
+          },
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Fixed duplicate Xbox controller battery entries over Bluetooth. Use the Windows Bluetooth battery reading instead of the misleading controller API value."
+        },
+        {
+          "version": "0.1.60",
+          "released_at": "2026-09-30T03:49:43Z",
+          "download": {
+            "url": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/downloads/BrutalDash-0.1.60.zip",
+            "size": 53570947,
+            "sha256": "54f6ae9394d95f9cb7b41e2328003ab8c2072c669685787283ba85115c2ad42d"
+          },
+          "permissions": [],
+          "extension": {
+            "desktop": true,
+            "permissions": [
+              "ffi",
+              "run",
+              "net:127.0.0.1",
+              "write"
+            ]
+          },
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Added LLM Monitor, multi-GPU selection and total VRAM, hold-dial screenshots, and a fourth saved layout shortcut. Improved layout persistence and Device Battery connection updates. Added double-tap min/max reset and fixed Gaming FPS card sizing and disconnected LLM clock mode."
+        },
+        {
+          "version": "0.1.53",
+          "released_at": "2026-09-27T17:48:17Z",
+          "download": {
+            "url": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/downloads/BrutalDash-0.1.53.zip",
+            "size": 53555667,
+            "sha256": "a5b5a46ecf8b3dc9d92da5769f490da0f0e1df2236134757f40ccfc411a7a370"
+          },
+          "permissions": [],
+          "extension": {
+            "desktop": true,
+            "permissions": [
+              "ffi",
+              "run",
+              "net:127.0.0.1:8894"
+            ]
+          },
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Expanded Device Battery support for HyperX Cloud III Wireless, newer Logitech receivers and Bluetooth HID++ connections, plus 25 Corsair and SteelSeries Arctis headset identifiers. Improved handling of approximate battery readings."
+        },
+        {
+          "version": "0.1.52",
+          "released_at": "2026-09-27T11:04:10Z",
+          "download": {
+            "url": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/downloads/BrutalDash-0.1.52.zip",
+            "size": 53549749,
+            "sha256": "cc4a2b0e723ca9aed32e65e2b9142340baecfa65ae96a43597fc00761e07eb0d"
+          },
+          "permissions": [],
+          "extension": {
+            "desktop": true,
+            "permissions": [
+              "ffi",
+              "run",
+              "net:127.0.0.1:8894"
+            ]
+          },
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Device Battery page and reusable card with Grid/List/Single views, vertical swipes, saved device ordering, percentage colors, charging pulse and learned time estimates. Bundled HaloBattery providers plus ASUS keyboard detection. Dashboard clock moved up."
+        },
+        {
+          "version": "0.1.51",
+          "released_at": "2026-09-27T04:15:07Z",
+          "download": {
+            "url": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/downloads/BrutalDash-0.1.51.zip",
+            "size": 40886282,
+            "sha256": "3ca6dec7917405e24eb9725b29cb7f92d94fc8b42f2071b6d430b8c33d6a0e95"
+          },
+          "permissions": [],
+          "extension": {
+            "desktop": true,
+            "permissions": [
+              "ffi",
+              "run",
+              "net:127.0.0.1:8894"
+            ]
+          },
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Stable: 1.5-second hold-and-drag card swaps with automatic per-layout persistence; clearer fonts and readings; combined GPU/VRAM and gaming network latency/loss; smoother customization/layout switching; media and dimming fixes; shared uploaded branding; verified-access PawnIO provisioning and AMD HWiNFO sensor fixes."
+        },
+        {
+          "version": "0.1.40",
+          "released_at": "2026-09-22T23:16:41Z",
+          "download": {
+            "url": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/downloads/BrutalDash-0.1.40.zip",
+            "size": 1419939,
+            "sha256": "5220961b047b15f6ccb9637e3b5119ca7a2fd48c890976c1f75d8852d607be68"
+          },
+          "permissions": [],
+          "extension": {
+            "desktop": true,
+            "permissions": [
+              "ffi",
+              "run",
+              "net:127.0.0.1:8894"
+            ]
+          },
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Release packaging correction: downloads now use GitHub Release assets, source archives no longer embed historical release ZIPs, and CI prevents tracked release ZIPs; dashboard behavior is unchanged."
+        },
+        {
+          "version": "0.1.39",
+          "released_at": "2026-09-22T01:59:11Z",
+          "download": {
+            "url": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/downloads/BrutalDash-0.1.39.zip",
+            "size": 1409155,
+            "sha256": "a97c023778cd0eb3615c5b0110d1f0eb2f3b67a6581c323fc6a3255ae810b3fd"
+          },
+          "permissions": [],
+          "extension": {
+            "desktop": true,
+            "permissions": [
+              "ffi",
+              "run"
+            ]
+          },
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Performance and usability update with faster layout switching, smoother touchscreen settings, direct clock behavior controls, 0-100% clock brightness in 1% steps, improved idle rendering, and clock brightness fixes."
+        },
+        {
+          "version": "0.1.37",
+          "released_at": "2026-09-10T08:49:45Z",
+          "download": {
+            "url": "https://brutal-brutalfoundry.github.io/BrutalDash-for-CarThing/downloads/BrutalDash-0.1.37.zip",
+            "size": 1419296,
+            "sha256": "6ee2ce009b3b2603f06326e6d614cffeb9c03c4304b2cdb8408c6b228b4d3812"
+          },
+          "permissions": [],
+          "extension": {
+            "desktop": true,
+            "permissions": [
+              "ffi",
+              "run"
+            ]
+          },
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "First public BrutalDash release. Native Windows telemetry, optional HWiNFO detail, bundled FPS monitoring, PC-native media controls, configurable dashboards, and clock mode."
+        }
+      ]
+    }
+  ],
+  "recommended_sources": []
+}

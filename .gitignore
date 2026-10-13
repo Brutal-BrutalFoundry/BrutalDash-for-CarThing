@@ -1,0 +1,4 @@
+/store/downloads/
+/release-notes/
+*.log
+.env*
